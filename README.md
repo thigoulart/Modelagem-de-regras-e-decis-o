@@ -14,19 +14,23 @@ Esta documentação descreve as regras de negócio e as decisões associadas ao 
 
 ## Decisões de Negócio (DMN)
 
-As tabelas a seguir mostram as decisões de negócio modeladas com base nas regras estabelecidas. Cada tabela DMN reflete uma parte específica do processo de vendas e ajuda a visualizar as decisões que precisam ser tomadas com base nas condições especificadas.
+As tabelas a seguir mostram as decisões de negócio modeladas com base nas regras estabelecidas. Cada tabela DMN reflete uma parte específica do processo de vendas e ajuda a visualizar as decisões que precisam ser tomadas com base nas condições especificadas. Abaixo, há as decisões do processo de vendas resumido do Grupo Hermes (a maioria de acordo com os gateways do BPMN produzido durante a sprint 1):
+
+<div align="center">
+<sub>Figura 1 - DMN Geral</sub>
+<img src="/images/processo.png" width="100%" >
+<sup>Fonte: Material produzido Thiago Goulart (2024)</sup>
+</div>
 
 #### 1. Tabela DMN: Aprovação de Crédito
 
 Esta tabela DMN detalha a decisão sobre a aprovação de crédito do cliente. Dependendo da resposta sobre a aprovação do crédito, a ação apropriada é tomada.
 
-| **Decisão 1: Aprovação de Crédito**  | **Hit policy:** First |
-|--------------------------------------|-----------------------|
-| **When**                             | **Then**              | **Annotations**                         |
-| Crédito Aprovado == "Sim"            | Emitir Fatura         | Prosseguir com a venda                   |
-| Crédito Aprovado == "Não"            | Formalizar Contrato   | Necessário formalizar contrato           |
-
-![Tabela DMN: Aprovação de Crédito](link-para-imagem-tabela-dmn-1)
+<div align="center">
+<sub>Figura 2 - Aprovação de Crédito</sub>
+<img src="/images/decisao1.png" width="100%" >
+<sup>Fonte: Material produzido Thiago Goulart (2024)</sup>
+</div>
 
 
 ### 2. Tabela DMN: Conformidade Fiscal
