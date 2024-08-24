@@ -66,6 +66,8 @@ Esta tabela DMN mostra a decisão sobre a aprovação pelo fornecedor. Dependend
 
 ### 5. Tabela DMN: Formalização de Contrato
 
+Esta tabela DMN detalha as decisões relacionadas à formalização de contratos, dependendo da aprovação de crédito e conformidade fiscal.
+
 <div align="center">
 <sub>Figura 6 - Formalização de Contrato</sub>
 <img src="/imagens/decisao4.png" width="100%" >
