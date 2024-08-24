@@ -18,7 +18,7 @@ As tabelas a seguir mostram as decisões de negócio modeladas com base nas regr
 
 <div align="center">
 <sub>Figura 1 - DMN Geral</sub>
-<img src="/images/processo.png" width="100%" >
+<img src="/imagens/processo.png" width="100%" >
 <sup>Fonte: Material produzido Thiago Goulart (2024)</sup>
 </div>
 
@@ -28,7 +28,7 @@ Esta tabela DMN detalha a decisão sobre a aprovação de crédito do cliente. D
 
 <div align="center">
 <sub>Figura 2 - Aprovação de Crédito</sub>
-<img src="/images/decisao1.png" width="100%" >
+<img src="/imagens/decisao1.png" width="100%" >
 <sup>Fonte: Material produzido Thiago Goulart (2024)</sup>
 </div>
 
